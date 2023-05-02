@@ -22,7 +22,7 @@ The raw dataset contains contains 6 columns and 1,449 rows, it contains country 
 Country delight is faced with a challenge overall orders per day in a region are increasing but the overall quantity ordered in given region is not. So i will be conducting an exploratory data analysis to solve the problem and provide recommendations.
 
 ## DATA QUALITY ASSESSMENT 
-Before conducting the EDA the first step was to assess the quality of the dataset to ensure that the dataset is valid, accurate and void of discrepancies. To do this i started by  loading the dataset in Excel after which i did the following:
+Before conducting the EDA the first step was to assess the quality of the dataset to ensure that the dataset is valid, accurate and void of discrepancies. To do this I  started by  loading the dataset in Excel after which i did the following:
 
 1 Check for Duplicate values using Excel built in feature: The dataset does not contain  duplicate values.
 
@@ -30,6 +30,19 @@ Before conducting the EDA the first step was to assess the quality of the datase
 
 3 Check for Inconsistency: The data set is consistent and does not cointain outliers.
 
-After this phase i proceede to the data analysis.
+After this phase i proceeded to the next step  data transformation.
+
+## DATA TRANSFORMATION
+After assesing the data quality I transformed the data by creating a new column called date. I created this to combine the date values that was seperated  in 3 different columns into one datevalue containing the day, month and year. To do this  I used the CONCATENATE function in excel to combine the 3 columns using this formula
+
+```=CONCATENATE(D2,"-",B2,"-",A2)```
+
+This formula combined the day which is contained in cell D2 with the month in cell B2 and the year contained in cell A2, then i used the autofill feature to fill other cells. Then I created another column to convert the combined date to an actual date value in Excel with the standard date format in Excel "mm/dd/yy". To do this I used the 'datevaule' function in Excel 
+
+```=DATEVALUE(G2)```
+
+This coverted the G2 cell  which was created using the CONCATENATE function into date, the month written in words was converted into the equivalent numeric value.
+[Insert picture]
 
 ## DATA ANALYSIS
+To begin the data analysis I identified the column relevant to the business question 
