@@ -45,4 +45,12 @@ This coverted the G2 cell  which was created using the CONCATENATE function into
 [Insert picture]
 
 ## DATA ANALYSIS
-To begin the data analysis I identified the column relevant to the business question 
+To begin the data analysis I identified the column relevant to the business question which is the measure names, date, and measure values. I proceeded to create a pivot table with these aforementioned columns putting the date colunm was used as the the table row, while the measure names was used as the column and the measure value column was use as the value for the pivot table to aggregate the data set in other to identify the trends and pattern in the data.
+
+### TACKLING THE BUSINESS QUESTION
+To do this i will compare the total number of order versus the quantity ordered to see how these variable compare against each other. To do this I applied  filter to the column to view only the count of orders and the quantity colums, i grouped the data in the pivot table by year and months i also summarized these columns by average to get the average nurmber of orders in each month and the average quantity ordered per month. To bettr understand the result and easily identify trends i created a clustered bar chart to visualize the data. 
+
+Result: The chart shows that the Average quantity ordered per month is significantly higher than the average number of order per month for example the month of December recorded an average of 4235 order count  and 31,279 quantity ordered. so we see that quantity ordered isn't static or decreasing in comparision to the total number of order.
+
+To see how the averages of these columns have changed over the months I plotted a line chart which is better for visualizing change over time. This reveals that the 
+
