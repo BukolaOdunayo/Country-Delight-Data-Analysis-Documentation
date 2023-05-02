@@ -50,7 +50,14 @@ To begin the data analysis I identified the column relevant to the business ques
 ### TACKLING THE BUSINESS QUESTION
 To do this i will compare the total number of order versus the quantity ordered to see how these variable compare against each other. To do this I applied  filter to the column to view only the count of orders and the quantity colums, i grouped the data in the pivot table by year and months i also summarized these columns by average to get the average nurmber of orders in each month and the average quantity ordered per month. To bettr understand the result and easily identify trends i created a clustered bar chart to visualize the data. 
 
-Result: The chart shows that the Average quantity ordered per month is significantly higher than the average number of order per month for example the month of December recorded an average of 4235 order count  and 31,279 quantity ordered. so we see that quantity ordered isn't static or decreasing in comparision to the total number of order.
+Insight: The chart shows that the Average quantity ordered per month is significantly higher than the average number of order per month for example the month of December recorded an average of 4235 order count  and 31,279 quantity ordered. so we see that quantity ordered isn't static or decreasing in comparision to the total number of order.
 
-To see how the averages of these columns have changed over the months I plotted a line chart which is better for visualizing change over time. This reveals that the 
+To see how the averages of these columns have changed over the months I plotted a line chart which is better for visualizing change over time. It does not show a consistent increase in order count values.
+
+### TOTAL ORDER PER MONTH
+ The total order per month was calculated using a pivot table just like the average order per month was calculated, just that in this cae it was summarized using the sum function. I proceeded to plot a line graph with the result of the table  to see how total order and quantity ordered has changed over time and determine if the overall orders are increasing while the total quantity isn't. The sum of the values creates a better visualization and it's easier to spot trends.
+ 
+ Insight: The total quantity ordered experienced a downward trend from November and peaked by febuary and continued a downtrend. However my hypothesis is that the reason for this is as follows,data from march is for only 13 days not the full month in comparsion to the succeeding months this could be the reason for the downward trend this is also applicable to september which covers data for 17 days, the available data doesn't cover the entire month. Overall order per has the same trend pattern with the quantity ordered it also peaked at feburary before it experienced a downtrend in march. To futher analyse the data i applied filter to the chart by removing september and march data from the chart we can an evident upward trend from october to feburary in both variables. Order per day is increasing but the quantity ordered is also increasing.
+
+
 
