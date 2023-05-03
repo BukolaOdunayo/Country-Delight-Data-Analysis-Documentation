@@ -42,7 +42,7 @@ This formula combined the day which is contained in cell D2 with the month in ce
 ```=DATEVALUE(G2)```
 
 This coverted the G2 cell  which was created using the CONCATENATE function into date, the month written in words was converted into the equivalent numeric value.
-[Insert picture]
+![](Concat_Result.png)
 
 ## DATA ANALYSIS
 To begin the data analysis I identified the column relevant to the business question which is the measure names, date, and measure values. I proceeded to create a pivot table with these aforementioned columns putting the date column was used as the the table row, while the measure names was used as the column and the measure value column was use as the value for the pivot table to aggregate the data set in other to identify the trends and pattern in the data.
