@@ -4,7 +4,7 @@
  This document contains the step by step process of the data analysis conducted using Country Delight dataset with the aim of solving a business challenge. A little background information on the company, Country Delight is a company that started in India in 2015 with the goal of bringing back the basics to milk.The company specializes in delivering natural,fresh and unadulterated milk to the consumers doorstep. The company is posed with a challenge that this analysis aims to solve and I will be sharing my process with you. This analysis and Visualization was completed using Excel,I used Excel because its suitable for the data size.
 
 ## DATA DESCRIPTION
-The raw dataset contains contains 6 columns and 1,449 rows, it contains country delight orders data from the 14th of September, 2022  to the 13th of March, 2023 the columns were named as follows:
+The raw dataset contains 6 columns and 1,449 rows, it contains country delight orders data from the 14th of September, 2022  to the 13th of March, 2023 the columns were named as follows:
 
 1 Year of Created_date: This contains the year part of the order date.
 
