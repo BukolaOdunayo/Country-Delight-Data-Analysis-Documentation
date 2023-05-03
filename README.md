@@ -97,5 +97,5 @@ Based on the analysis of the available data, it can be concluded that there is a
 Therefore, further research or analysis needs to be done to gain a more complete understanding of the relationship between the average selling price and the average quantity ordered, including the exploration of additional variables that may be influencing the quantity ordered.
 
 ## REFERENCE
-[IBEF- Indian brand equity foundation] (https://www.ibef.org/news/december-retail-sales-jump-by-16-from-pre-covid-levels)
+[IBEF- Indian brand equity foundation](https://www.ibef.org/news/december-retail-sales-jump-by-16-from-pre-covid-levels)
  
