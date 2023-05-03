@@ -73,7 +73,7 @@ Insight: The chart shows that the Average quantity ordered per month is signific
  
  The correlation coefficient between the average selling price and average quantity ordered is -0.362189179
  
- [insert picture]
+ ![](Correlation.png)
  
 A -0.362 indicates a weak negative correlation between the average selling price and the total quantity ordered.The negative sign indicates that the correlation is negative, which means that as the average selling price increases, the total quantity ordered tends to decrease. However, the value of -0.362189179 indicates that the relationship is weak, meaning that there is a lot of variability in the data and the correlation is not very strong.
 
